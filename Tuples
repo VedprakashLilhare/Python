@@ -1,0 +1,13 @@
+#Python Tuples
+a=("b","c","d","e")
+print(a)
+      #output:('b','c','d','e') 
+      👉Tuples are unchangeable, meaning that we cannot change, add or remove items after the tuple has been created.
+         but this is way to change👇
+#Change Tuple Values
+  x = (1,2,3,4,5)
+  y = list(x)
+  y[1] = "a"
+  x = tuple(y)
+  print(x)
+       #output:(1,'a',3,4,5)
