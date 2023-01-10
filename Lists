@@ -1,0 +1,26 @@
+                                                           # 1. Lists in python
+a=["b","c","d","e"]
+print(a)
+          # output : ['b', 'c', 'd', 'e']
+
+                                                           # 2. Length in list
+print(len(a))
+          #output : 4
+                                                           
+                                                           # 3. Let"s see type of List
+print(type(a))
+          #output : <class 'list'>
+          
+                                                           # 4. Accessing list items
+print(a[1])
+          #output : c
+          
+                                                            # 4.1 negative indexing
+print(a[-1])
+          #output : e
+          
+                                                            # 4.2 Range of Indexes
+print(a[2:4])     
+         #output : ['d', 'e']
+                                                          
+                                                            #           
