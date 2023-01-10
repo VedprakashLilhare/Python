@@ -48,3 +48,15 @@ print(a)
 a.append("E")
 print(a)
        #output : ['b', 'c', 'D', 'd', 'e', 'E']
+
+                                                        # 7. Remove List Items
+a.remove("E")
+          #output : ['b', 'c', 'D', 'd', 'e']
+          
+                                                        # 7.1 Remove specified Index
+ a.pop(2)
+          #output : ['b', 'c', 'd', 'e']
+          
+                                                        # 8. Clear the List
+a.clear()  
+         #output : []
