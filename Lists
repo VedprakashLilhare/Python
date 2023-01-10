@@ -23,4 +23,28 @@ print(a[-1])
 print(a[2:4])     
          #output : ['d', 'e']
                                                           
-                                                            #           
+                                                             # 4.3 Range of Negative Indexes
+                                                             
+print(a[-4:-1])                                                             
+         #output : ['b', 'c', 'd']
+           #Check if Item Exists:
+         if b in a
+         ptint("YES")
+           #output : YES
+                                                           
+                                                           # 4.4 Change items value
+a=["b","c","d","e"]                                                                                                                     
+a[1]='V'
+print(a)
+       #output : ['b', 'V', 'd', 'e']
+       
+                                                          # 5. Insert Items
+ a=["b","c","d","e"]]
+a.insert(2, "D")
+print(a)
+       #output : ['b', 'c', 'D', 'd', 'e']
+       
+                                                         # 6. Add List Items
+a.append("E")
+print(a)
+       #output : ['b', 'c', 'D', 'd', 'e', 'E']
