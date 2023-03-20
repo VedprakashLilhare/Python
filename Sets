@@ -1,5 +1,0 @@
-                              # Python Sets
-a = {1,2,3,4,5}
-print(a)
-       #output: {1,2,3,4,5}
-                             👉 Set items are unordered, unchangeable, and do not allow duplicate values.
